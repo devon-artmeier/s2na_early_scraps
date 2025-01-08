@@ -24,6 +24,6 @@ To see the full list of symbols found in the ROM, go [here](https://tcrf.net/Pro
 | sprscr      | Sonic 1 special stage functions     | 0x65260      | 0x18B48            |
 | efectwrt    | Animated tile/effect handler        | 0x66548      | 0x19A2C            |
 | play01      | Sonic 1 special stage player object | 0x67894      | 0x19380            |
-| edit        | Debug mode function                 | 0x68464      | 0x1AB00            |
+| edit        | Debug mode functions                | 0x68464      | 0x1AB00            |
 | score       | HUD object and functions            | 0x69464      | 0x1A074            |
 | divdevtbl   | Stage data table and graphics lists | 0x6B5C4      | 0x1AF58            |
