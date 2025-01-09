@@ -61,7 +61,7 @@ bossbainit:
 	bne.s	.worknai
 	move.b	#bossba_act,actno(a1)
 	move.l	a0,$34(a1)
-	move.l	#bossafbpat_,patbase(a1)
+	move.l	#bossafbpat,patbase(a1)
 	move.w	#$4D0,sproffset(a1)
 	move.b	#1,pattim(a0)
 	move.b	#4,actflg(a1)
