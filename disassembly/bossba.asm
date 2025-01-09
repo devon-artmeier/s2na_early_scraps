@@ -109,7 +109,7 @@ bossbatop:
 	move.l	yposi(a1),yposi(a0)
 	move.b	cddat(a1),cddat(a0)
 	move.b	actflg(a1),actflg(a0)
-	movea.l	#bossbachg_,a1
+	movea.l	#bossbachg,a1
 	jsr	patchg
 	jmp	actionsub
 
@@ -192,7 +192,7 @@ billbomb_tbl:
 
 billbombinit:
 	addq.b	#2,r_no0(a0)
-	move.l	#billbombpat_,patbase(a0)
+	move.l	#billbombpat,patbase(a0)
 	move.w	#$5A0,sproffset(a0)
 	move.b	#4,actflg(a0)
 	move.b	#1,sprpri(a0)
