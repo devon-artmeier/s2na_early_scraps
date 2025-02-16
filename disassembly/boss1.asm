@@ -392,7 +392,7 @@ btamainit:
 	addq.b	#2,r_no0(a0)
 	move.w	#$4080,direc(a0)
 	move.w	#-$200,$3E(a0)
-	move.l	#boss2pat_,patbase(a0)
+	move.l	#boss2pat,patbase(a0)
 	move.w	#$46C,sproffset(a0)
 	bsr.w	dualmodesub
 	lea	userflag(a0),a2
